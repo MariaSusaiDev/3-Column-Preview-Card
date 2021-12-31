@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  background: hsl(0, 0%, 95%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 1440px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 70vh;
+  width: 1000px;
+}
+
+.sedan {
+  display: flex;
+  flex-direction: column;
+  width: 333px;
+  background-color: hsl(31, 77%, 52%);
+  height: inherit;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.suv {
+  display: flex;
+  flex-direction: column;
+  width: 333px;
+  background-color: hsl(184, 100%, 22%);
+  height: inherit;
+}
+
+.luxury {
+  display: flex;
+  flex-direction: column;
+  width: 333px;
+  background-color: hsl(179, 100%, 13%);
+  height: inherit;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.car-img {
+  height: 40px;
+  width: 60px;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+
+.car-title {
+  margin-left: 50px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  color: hsl(0, 0%, 95%);
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.main-content-sedan {
+  margin-left: 50px;
+  margin-right: 80px;
+  line-height: 1.8;
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.main-content-suv {
+  margin-left: 45px;
+  margin-right: 80px;
+  line-height: 1.8;
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.main-content-luxury {
+  margin-left: 40px;
+  margin-right: 80px;
+  line-height: 1.8;
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.link-wrapper {
+  margin-left: 50px;
+  margin-top: 90px;
+  background-color: hsl(0, 0%, 95%);
+  height: 50px;
+  width: 150px;
+  border-radius: 50px;
+  text-align: center;
+}
+
+.learn-more-sedan {
+  margin: 15px;
+  color: hsl(31, 77%, 52%);
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.learn-more-suv {
+  margin: 15px;
+  color: hsl(184, 100%, 22%);
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.learn-more-luxury {
+  margin: 15px;
+  color: hsl(179, 100%, 13%);
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
